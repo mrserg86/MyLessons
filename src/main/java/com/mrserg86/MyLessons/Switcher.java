@@ -1,3 +1,5 @@
+package com.mrserg86.MyLessons;
+
 import java.util.ArrayList;
 
 public class Switcher {

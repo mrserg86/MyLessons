@@ -1,3 +1,5 @@
+package com.mrserg86.MyLessons;
+
 public class Radio implements ElectricityConsumer{
 
     public void playMusic() {

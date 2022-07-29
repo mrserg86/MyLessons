@@ -1,3 +1,5 @@
+package com.mrserg86.MyLessons;
+
 public class Lamp implements ElectricityConsumer{
 
     public void lightOn() {
