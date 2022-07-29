@@ -6,11 +6,13 @@ public class Runner {
         Lamp lamp = new Lamp();
         Radio radio = new Radio();
 
+        String message = "Пожар";
+
         //event subscribe
         switcher.addElectricityListener(lamp);
         switcher.addElectricityListener(radio);
 
-        switcher.addElectricityListener( () -> System.out.println("Пожар") );
+        switcher.addElectricityListener( () -> System.out.println(message) );
 
         switcher.switchOn();
 
