@@ -1,4 +1,4 @@
-package com.mrserg86.MyLessons;
+package com.mrserg86.MyLessons.Lambda;
 
 public class Runner {
 
