@@ -1,10 +1,11 @@
 package com.mrserg86.MyLessons.Lambda;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class Switcher {
 
-    private ArrayList<ElectricityConsumer> listeners = new ArrayList<>();
+    private List<ElectricityConsumer> listeners = new ArrayList<>();
 
     public void addElectricityListener(ElectricityConsumer listener) {
         listeners.add(listener);
