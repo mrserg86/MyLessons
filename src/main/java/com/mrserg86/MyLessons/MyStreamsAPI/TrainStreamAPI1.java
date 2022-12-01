@@ -4,7 +4,7 @@ package com.mrserg86.MyLessons.MyStreamsAPI;
 
 import java.util.*;
 
-public class TrainStreamAPI {
+public class TrainStreamAPI1 {
 
     public static void demoStream() {
 
@@ -20,7 +20,7 @@ public class TrainStreamAPI {
         System.out.println(list);
 
         // 2. Определить количество чётных чисел.
-        int count = (int)(list.stream().filter((n) -> (n%2)==0).count());
+        int count = (int)(list.stream().filter((n)->(n%2)==0)).count();
         System.out.println(count);
 
     }
