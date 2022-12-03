@@ -4,6 +4,7 @@ package com.mrserg86.MyLessons.MyStreamsAPI;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 
 public class TrainStreamAPI3 {
@@ -16,9 +17,11 @@ public class TrainStreamAPI3 {
 
         //в естественном порядке
         list.stream().sorted((str1,str2) -> str1.compareTo(str2)).forEach(System.out::println);
+        list.stream().sorted(Comparator.naturalOrder()).forEach(System.out::println);
 
         //в порядке убывания
         list.stream().sorted((str1,str2) -> str2.compareTo(str1)).forEach(System.out::println);
+        list.stream().sorted(Comparator.reverseOrder()).forEach(System.out::println);
 
     }
 
